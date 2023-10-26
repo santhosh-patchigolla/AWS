@@ -131,3 +131,21 @@ Monitor your ECS service using AWS CloudWatch metrics and logs.
 ## 8. Conclusion
 
 In conclusion, AWS ECS offers a robust and user-friendly platform for deploying and managing containerized applications. We covered the fundamentals of ECS, compared it with its alternatives, discussed its pros and cons, and walked through the installation, configuration, and deployment of a sample application.
+
+
+
+ECS disadvantages:
+
+the cons is auto healing and auto scaling is the main problem in ECS where as EKS or K8s solve this problem.
+
+ECS is limited to AWS and con't be migirated to other cloud
+
+ECS does not have all the features like K8S as K8S big community and the features are keep on updated
+
+ECS is simplicity rather than the EKS ...
+
+Ecs is cost effective rather than EKS
+
+
+#AWS Fargate is a serverless compute engine for containers offered by Amazon Web 
+
