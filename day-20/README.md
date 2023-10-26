@@ -87,3 +87,22 @@ As good practice, remember to clean up resources that you no longer need to avoi
 
 4. ![image](https://github.com/santhosh-patchigolla/AWS/assets/53848645/63e95386-bf7f-4504-bec0-77f99eab922f)
 
+
+FYI ECR PUSH COmmands
+
+Use the following steps to authenticate and push an image to your repository. For additional registry authentication methods, including the Amazon ECR credential helper, see Registry Authentication .
+Retrieve an authentication token and authenticate your Docker client to your registry.
+Use the AWS CLI:
+
+aws ecr get-login-password --region us-east-1 | docker login --username AWS --password-stdin 879064262688.dkr.ecr.us-east-1.amazonaws.com
+Note: If you receive an error using the AWS CLI, make sure that you have the latest version of the AWS CLI and Docker installed.
+Build your Docker image using the following command. For information on building a Docker file from scratch see the instructions here . You can skip this step if your image is already built:
+
+docker build -t demo-app-repo .
+After the build completes, tag your image so you can push the image to this repository:
+
+docker tag demo-app-repo:latest 879064262688.dkr.ecr.us-east-1.amazonaws.com/demo-app-repo:latest
+Run the following command to push this image to your newly created AWS repository:
+
+docker push 879064262688.dkr.ecr.us-east-1.amazonaws.com/demo-app-repo:latest
+
