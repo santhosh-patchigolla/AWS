@@ -106,3 +106,16 @@ Run the following command to push this image to your newly created AWS repositor
 
 docker push 879064262688.dkr.ecr.us-east-1.amazonaws.com/demo-app-repo:latest
 
+________________________________________________________________________________
+
+Difference between dockerhub and ecr
+
+Docker hub is free and we can public free repositry and private(only few can)
+
+
+ecr by default repos are private...as its constract on focuusing on security it is chargeble service in AWS
+
+> ECR has good integration with service in AWS like EKS ,fargate...as ECR is a part of the AWS service.
+
+#Amazon Elastic Container Registry (Amazon ECR) is a fully managed container registry service provided by Amazon Web Services (AWS). It is designed to help developers, teams, and organizations store, manage, and deploy container images securely.
+
