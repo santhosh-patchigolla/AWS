@@ -84,3 +84,6 @@ As good practice, remember to clean up resources that you no longer need to avoi
 1. Make sure there are no images in the repository, or delete the images using `docker rmi` locally.
 2. Go to the AWS Management Console, navigate to the Amazon ECR service, and select your repository.
 3. Click on "Delete" and confirm the action.
+
+4. ![image](https://github.com/santhosh-patchigolla/AWS/assets/53848645/63e95386-bf7f-4504-bec0-77f99eab922f)
+
