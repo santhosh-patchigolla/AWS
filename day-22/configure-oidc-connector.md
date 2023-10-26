@@ -17,3 +17,7 @@ If not, run the below command
 ```
 eksctl utils associate-iam-oidc-provider --cluster $cluster_name --approve
 ```
+
+
+FYI
+IAM OIDC is a powerful tool for integrating AWS with your organization's identity and authentication systems, providing a seamless experience for users and simplifying identity management in AWS environments. It can be especially useful for organizations that already use OIDC IdPs for other applications and want to extend this authentication mechanism to AWS resources.
