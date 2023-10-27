@@ -54,6 +54,16 @@ AWS Systems Manager integrates with services like CloudWatch, Lambda, and Step F
 Yes, AWS Systems Manager can be used to manage both AWS resources and on-premises resources by installing the necessary agent on your servers.
 
 ### 18. How does AWS Systems Manager help with troubleshooting?
+
+
+
+secrets managers:
+
+System manager: It is very easy to retrive the service... TO retrive secrets you need have IAM role ..once you have role you can easily retirve the secrets.ex: you can keep like docker URL and docker Username..Price is low than secret manger
+
+Secret manager: As it holds sensitive info it will rotate and you need to change it accordingly like once in 90/180..days and the previous one will be expires,SSL certs,DB creds,API token, : little high than system manager.
+
+hasicorp vault: This can be used mostly on hybrid cloud where they company has of GCP and AWS..like that..If they hasicorp it will simple while migrating to other cloud. Its a dedicated vault and its open source and lot of support from the community
 Systems Manager provides features like Run Command, Session Manager, and Automation to remotely access instances for troubleshooting and maintenance tasks.
 
 ### 19. What is the Session Manager feature in AWS Systems Manager?
