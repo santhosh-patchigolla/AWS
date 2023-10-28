@@ -184,6 +184,6 @@ On the final day, you'll review best practices for AWS services, including secur
 ## Day 30: AWS Project with RDS
 
 
-![image](https://github.com/santhosh-patchigolla/AWS/assets/53848645/b4af735d-f55b-42a5-910b-de2408576c47)
+![image](https://github.com/santhosh-patchigolla/AWS/assets/53848645/c164d77c-665b-4259-ac3e-ec5d2d50a9ad)
 
 
