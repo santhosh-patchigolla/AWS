@@ -1,0 +1,7 @@
+Load balancers:
+
+ALB is slow and costly than NLB which is used for access Container Orchestration: Web Application Hosting: WAF Integration:  with 80 and 443 being the most common for handling HTTP and HTTPS traffic.
+
+NLB it is used in Streaming and Real-Time Applications Internet-Facing Applications: Database Clusters: Highly Available Web Applications: and gaming it has low latency compared to ALB  using on the TCP/UDP ports... 
+
+GCLB : this offers high security you can use mostly on the VPN,Firewall side.
