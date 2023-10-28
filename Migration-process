@@ -1,0 +1,26 @@
+Cloud Migration Process..
+
+>Preparation ..Check if it is in a monolithic or micro-based thing
+
+>Planing..conver to micro service...in phase1 which services or need to move on which order if some critical things are there they can be moved to last phase ...based on critical you need to move on last less critcal will goes on first, In this planing side we need to approach wchih strategy you need to take
+
+>Migrating: on based on the statrtegy will start the migrating the app to cloud,based on this phases will do the migration that how many 
+Times you require..mostly will be do right some terraform scirpts..
+
+>Monitoring> setting some cloud watch,cron Jobs..
+
+>Optimising>After the migration is done what you have achieved ..you need evaluate is the cost reduced or the budget for the team has reduced using clud you need to evaluate ..If the cost has been reduced to 40% and how can you increse to 50% like that 
+_________________________________________________________
+Cloud migration Strategies:
+Rehost:- lift and shift ..means building the same thing in the cloud and will divert the traffic to newer things. is best suited for no dependency on the 
+OS H/W ENV.. Very minimal change or no change 
+
+>Replatorform: Same like rehost but will add some more changes will adopt from the cloud which are 
+Best practice...
+
+>Repurchase:
+>Refactor/Re architecture: If you are app is monolithic you need to upadate to micro based service.
+>Retire: If some application are not using then you will keep retire those app's
+>Retain: Its a simple thing like if migrating the things on phases wise ....if some thing is critical you wont make any changes here
+
+
