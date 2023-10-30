@@ -69,5 +69,31 @@ https://docs.aws.amazon.com/vpc/latest/userguide/vpc-example-private-subnets-nat
 
 ![image](https://github.com/iam-veeramalla/aws-devops-zero-to-hero/assets/43399466/89d8316e-7b70-4821-a6bf-67d1dcc4d2fb)
 
+_____________________________________________________
 
+
+
+Internet gateway –it is keep for the VPC level using this we can provide incoming and out going traffic 
+
+Subnet it’s a chopping the network. 
+
+Route Table: are for the subent level used access the in ternet in the public subnet by asscocitating it EX (0.0.0.0/24) 
+
+ 
+
+NAT this is attched to the private subnet where its is usedul for outgoing traffic in this there is no incomming traffic ..ex application are created in NAT so no one will access from outside ,,,but it can access the internet 
+
+ 
+
+NACl : is used for the subent level here we can allow are denay the  
+
+ 
+
+SG: it's used for the at the instacnce level where we can choose what type permission they need.It only allow the traffic but if you want to block anything it cant help but in the NACL we can block it. 
+ 
+ 
+FYI: If you restrict something in the NACL level ...and try to access in the SG level for any resource the traffic wont flow ..as Nacl works on the subnet level and SG works on the instance level. NACL addes for the extra security level for the subent. 
+ 
+In summary, NACLs provide finer-grained control at the subnet level but require you to manage separate inbound and outbound rules, making them suitable for controlling traffic between subnets. Security Groups, on the other hand, operate at the instance level, are stateful, and are more straightforward to configure, making them an excellent choice for controlling traffic to and from individual instances. 
+Refer in the one oneVPC-1
 
